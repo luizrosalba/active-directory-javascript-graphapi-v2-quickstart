@@ -6,7 +6,7 @@ const msalConfig = {
   auth: {
     clientId: "042b7461-8d15-4d69-98b2-74df1a0030df",
     authority: "https://login.microsoftonline.com/da49a844-e2e3-40af-86a6-c3819d704f49",
-    redirectUri: "https://gallant-leavitt-cb78df.netlify.app/",
+    redirectUri: "https://gallant-leavitt-cb78df.netlify.app/"
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
