@@ -18,3 +18,24 @@ function callMSGraph(endpoint, token, callback) {
     .then(response => callback(response, endpoint))
     .catch(error => console.log(error))
 }
+
+function postAcquiredToken(endpoint, loginResponse, callback) {
+  const headers = new Headers();
+  //const bearer = `Bearer ${token}`;
+
+  //headers.append("Authorization", bearer);
+
+  const options = {
+      method: "POST",
+      headers: headers,
+      loginResponse,
+  };
+
+  console.log('Post to Localhost API at: ' + new Date().toString());
+  
+  fetch(endpoint, options)
+    .then(response => response.json())
+    .then(response => callback(response, endpoint))
+    .catch(error => console.log(error))
+}
+

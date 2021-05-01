@@ -4,12 +4,12 @@
 // visit https://azuread.github.io/microsoft-authentication-library-for-js/docs/msal/modules/_authenticationparameters_.html
 const msalConfig = {
   auth: {
-    clientId: "042b7461-8d15-4d69-98b2-74df1a0030df",
+    clientId: "52c347eb-a3eb-47e9-91e2-afad2033c3a",
     authority: "https://login.microsoftonline.com/da49a844-e2e3-40af-86a6-c3819d704f49",
     redirectUri: "https://gallant-leavitt-cb78df.netlify.app/"
   },
   cache: {
-    cacheLocation: "sessionStorage", // This configures where your cache will be stored
+    cacheLocation: "localStorage", // This configures where your cache will be stored
     storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge
   }
 };  
