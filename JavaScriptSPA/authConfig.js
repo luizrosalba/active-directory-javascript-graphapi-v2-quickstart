@@ -4,7 +4,7 @@
 // visit https://azuread.github.io/microsoft-authentication-library-for-js/docs/msal/modules/_authenticationparameters_.html
 const msalConfig = {
   auth: {
-    clientId: "52c347eb-a3eb-47e9-91e2-afad2033c3a",
+    clientId: "52c347eb-a3eb-47e9-91e2-afad2033c3a9",
     authority: "https://login.microsoftonline.com/da49a844-e2e3-40af-86a6-c3819d704f49",
     redirectUri: "https://gallant-leavitt-cb78df.netlify.app/"
   },
