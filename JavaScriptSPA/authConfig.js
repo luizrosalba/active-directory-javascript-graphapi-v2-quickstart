@@ -5,8 +5,8 @@
 const msalConfig = {
   auth: {
     clientId: "52c347eb-a3eb-47e9-91e2-afad2033c3a9",
-    authority: "https://login.microsoftonline.com/da49a844-e2e3-40af-86a6-c3819d704f49",
-    //authority: "https://sts.windows.net/da49a844-e2e3-40af-86a6-c3819d704f49/",
+    //authority: "https://login.microsoftonline.com/da49a844-e2e3-40af-86a6-c3819d704f49",
+    authority: "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize",
     redirectUri: "https://gallant-leavitt-cb78df.netlify.app/"
   },
   cache: {
