@@ -5,13 +5,13 @@
 const msalConfig = {
   auth: {
     clientId: "eeb1f3c5-ec03-44aa-8639-0c977d2ad5c2",
-    //authority: "https://login.microsoftonline.com/common/", ///sem distinçao app ou ent 
-   authority: "https://login.microsoftonline.com/5da575e2-6108-416c-b3f8-b68bb440b7b9/", ///sem distinçao app ou ent 
+    authority: "https://login.microsoftonline.com/common/", ///sem distinçao app ou ent 
+   //authority: "https://login.microsoftonline.com/5da575e2-6108-416c-b3f8-b68bb440b7b9/", ///sem distinçao app ou ent 
     redirectUri: "https://gallant-leavitt-cb78df.netlify.app/"
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
-    storeAuthStateInCookie: true, // Set this to "true" if you are having issues on IE11 or Edge
+    storeAuthStateInCookie: false, // Set this to "true" if you are having issues on IE11 or Edge
   }
 };  
   
